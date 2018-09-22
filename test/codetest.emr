@@ -1,0 +1,66 @@
+# Types #
+bool = false
+number_integer = 5
+number_float = 2.5 # Same representation (Number)
+text = "Hello world!"
+list = ["Some text", 42, true, 34/5]
+
+
+
+# List #
+i = 0
+for 4 do
+    print("index = " + i) # string + number = concatination
+    value = list[i]
+    print("value = " + value)
+    i = i + 1
+    print("")
+end for
+
+
+
+# Fibonacci #
+a = 1
+b = 1
+function fib()
+    c = b
+    b = a + b
+    a = c
+end function
+for 20 do
+    print(a)
+    fib()
+end for
+
+
+
+# Warn #
+if bool != true then # Declared as false above
+    print("")
+    warn("Error message") # Warn keywords provides quick identification
+    print("")
+end if
+
+
+
+# Comparisons #
+if 1==2 then
+    print("1 == 2 | true")
+elseif 1!=2 then
+    print("1 != 2 | true")
+elseif true then
+    print("True, but 'if' already done")
+end if
+print("")
+
+
+
+# While #
+print("i <= 10")
+print("")
+i = 0
+while i <= 10 do
+    i = i + 1
+    print("i = " + i)
+    print(i <= 10)
+end while

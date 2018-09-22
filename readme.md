@@ -35,6 +35,13 @@ print("Go!")
 Go!
 ```
 
+#### How to run
+```
+ruby rules.rb file.emr [-d]
+```
+Requires a Ruby installation  
+Warning: debug [-d] is extremely simple and might break easily!
+
 ## Contact
 [contact]: #contact
 [@williamutbult](https://github.com/williamutbult "William Utbult")
@@ -43,29 +50,4 @@ Go!
 
 ## License
 [license]: #license
-MIT © 2018 William Utbult
-
-
-
-
-<!--
-# The Rust Programming Language
-
-This is the main source code repository for [Rust]. It contains the compiler,
-standard library, and documentation.
-
-[Rust]: https://www.rust-lang.org
-
-## Quick Start
-[quick-start]: #quick-start
-
-Read ["Installation"] from [The Book].
-
-["Installation"]: https://doc.rust-lang.org/book/second-edition/ch01-01-installation.html
-[The Book]: https://doc.rust-lang.org/book/index.html
-
-## Building from Source
-[building-from-source]: #building-from-source
-
-### Building on *nix
--->
+GPL-2.0 © 2018 William Utbult

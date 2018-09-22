@@ -1,0 +1,7 @@
+x = 0
+function fun()
+    x = x + 5
+end function
+fun()
+fun() # Unexpected
+print(x)
