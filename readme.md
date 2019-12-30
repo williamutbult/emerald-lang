@@ -8,6 +8,8 @@ learners to help grasp the basics of programming.
 
 The language is written in Ruby and features simple, descriptive, keyword-based syntax.
 
+## [Documentation](./docs/README.md)
+
 ## Table of contents
 * [Example](#example)
 * [Contact](#contact)
